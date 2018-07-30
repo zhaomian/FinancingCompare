@@ -1,0 +1,93 @@
+/* pages/manual/manual.wxss */
+.productInfoText {
+  margin-top: 10rpx;
+  margin-bottom: 20rpx;
+  margin-left: 10rpx;
+  font-size: 40rpx;
+  line-height: 56rpx;
+  color: gray;
+}
+
+.productInfo {
+  margin-left: 50rpx;
+  margin-right: 60rpx;
+  padding-left: 20rpx;
+  padding-top: 30rpx;
+  padding-bottom: 50rpx;
+  background-color: yellow;
+}
+
+.infoItem {
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 10rpx;
+  font-size: 40rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+
+.title {
+  flex-grow: 1;
+}
+
+.subtitle {
+  padding-right: 10rpx;
+  margin-right: 20rpx;
+  width: 50%;
+  height: 70%;
+  justify-content: center;
+  font-size: 30rpx;
+  text-align: right;
+  color: gray;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: orange;
+}
+
+.formula {
+  margin-top: 50rpx;
+  margin-left: 70rpx;
+  margin-right: 80rpx;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 25rpx;
+  line-height: 40rpx;
+  height: 40rpx;
+  color: gray;
+  text-align: center;
+  background-color: lightgray;
+  border: 1px solid rgba(0, 0, 0, 0.1)
+}
+
+ /* .formulaMethod {
+  margin-left: 10rpx;
+   background-color: red; 
+  text-align: left;
+  flex-grow: 1;
+}  */
+
+.confirmButton {
+  margin-top: 100rpx;
+  margin-left: 150rpx;
+  margin-right: 150rpx;
+  font-size: 50rpx;
+  line-height: 70rpx;
+  height: 70rpx;
+  color: red;
+  text-align: center;
+  background-color: white;
+  border: 1px solid rgb(255, 0, 0)
+}
+
+.income {
+  margin-top: 30rpx;
+  font-size: 150rpx;
+  color: red;
+  text-align: center;
+}
+
+.incomeUnit {
+  text-align: center;
+  color: gray;
+}
+

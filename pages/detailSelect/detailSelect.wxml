@@ -1,0 +1,3 @@
+<!--pages/detail/detail.wxml-->
+<view class="manual" bindtap='onTapMaunal'>手动填写</view>
+<view class="scan">扫描图片</view>

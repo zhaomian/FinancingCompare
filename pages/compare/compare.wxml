@@ -1,0 +1,24 @@
+<!--pages/compare/compare.wxml-->
+<view class="title">点击下面图标开始添加理财产品吧！</view>
+<view class="compare-wrapper" wx:for="{{showList}}">
+  <view class='compareItemView'>
+    <view class='compareItem' bindtap='onTapCompareItem' data-index="{{index}}">
+      <view class="income">
+        <view>{{item.incomeText}}</view>
+        <view>{{item.income}}</view>
+      </view>
+      <view class="detail">
+        <view>产品名称：{{item.productName}}</view>
+        <view>收益率：{{item.rate}}</view>
+        <view>时长：{{item.deadline}}</view>
+        <view>金额：{{item.money}}</view>
+      </view> 
+  </view>
+    <!--delete按钮  -->
+  <image class="deleteItem" src="/src/delete-img.png" mode="scaleToFill" bindtap='onTapDeleteItem' data-index="{{index}}"></image> 
+</view>
+  
+  
+
+</view>
+<view class="addMore" bindtap='onTapAddMore'>+ 添加更多理财产品</view>

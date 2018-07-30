@@ -1,0 +1,23 @@
+/* pages/detail/detail.wxss */
+
+.manual {
+  margin-top: 300rpx;
+  margin-left: 60rpx;
+  margin-right: 60rpx;
+  background-color: green;
+  font-size: 40rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+}
+
+.scan {
+  margin-top: 40rpx;
+  margin-left: 60rpx;
+  margin-right: 60rpx;
+  background-color: green;
+  font-size: 40rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+}

@@ -1,0 +1,39 @@
+<!--pages/manual/manual.wxml-->
+<view class="productInfoText">输入产品信息</view>
+<view class='productInfo'>
+  <view class="infoItem">
+    <view class="title">产品名称：</view>
+     <view class='subtitle'>
+       <input placeholder="{{productName}}" bindblur='returnProductName'></input> 
+     </view> 
+  </view>
+  <view class="infoItem">
+    <view class="title">收益率(%)：</view>
+    <view class='subtitle'>
+       <input placeholder="{{rate}}" bindblur='returnRate'></input> 
+     </view>
+  </view>
+  <view class="infoItem">
+    <view class="title">投资时长(月)：</view>
+    <view class='subtitle'>
+       <input placeholder="{{deadline}}" bindblur='returnDeadline'></input> 
+     </view>
+  </view>
+  <view class="infoItem">
+    <view class="title">投资金额(元)：</view>
+    <view class='subtitle'>
+       <input placeholder="{{money}}" bindblur='returnMoney'></input> 
+     </view>
+  </view>
+</view>
+<view class='formula'>
+  <view class='formulaText'>计算公式(%)：</view>
+  <view class='formulaMethod'>
+    <input placeholder="{{rate}}% * {{deadline}}/12 * {{money}}" ></input>
+  </view>
+</view>
+
+<view class='confirmButton' bindtap='onTapConfirmButton'>开始计算</view>
+
+<view class='income'>{{income}}</view>
+<view class="incomeUnit">{{incomeUnit}}</view>

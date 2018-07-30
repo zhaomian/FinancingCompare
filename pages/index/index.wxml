@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="pageStyle">
+  <view class='title' bindtap='onTapTitle'>欢迎使用理财对比小工具</view>
+  <view class='subtitle' bindtap='onTapTitle'>=>点击进入</view>
+</view>
+
